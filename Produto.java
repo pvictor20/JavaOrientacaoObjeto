@@ -21,8 +21,24 @@
  *  - Atributos são nomeados em letras minúsculas, sem espaço, sem caracteres especials
  * sem acentuação;
  */
+
+ //Métodos
+ /*
+  * - Pode-se entender métodos como a ação que é realizada por um objeto da classe;
+  * - Os métodos são comportamentos dos objetos da classe;
+  * - Mesmos requisitos para funções:
+    a) Tipo de retorno (Tipo de dado que a função vai retornar);
+    b) Nome - Corresponde a ação que a função realiza;
+    c) Parâmetros/Argumentos de entrada (Opcional);
+    d) Retorno (Opcional - depende do tipo de retorno);
+  */
 public class Produto {
     String nome;
     float preco;
     float desconto;
+
+    //Método para aumentar o preço do produto em 10
+    void aumentar_preco(float valor){
+        this.preco = this.preco + valor;
+    } 
 }
