@@ -10,7 +10,7 @@ public class Objeto {
 
         //Declaração e instaciação/iniciação do objeto;
         //p1 -> instância do objeto / objeto;
-        Produto p1 = new Produto();
+        Produto p1 = new Produto(); //Construtor
         p1.nome = "Notebook";
         p1.preco = 2.367f;
         p1.desconto = 15.0f;
@@ -21,7 +21,7 @@ public class Objeto {
         System.out.println(p1.desconto + "%" + " de desconto");
 
         p0 = new Produto();
-        p0.nome = "Caneta Bic";
+        p0.nome = "Caneta Bic"; //Construtor
         p0.preco = 2.45f;
         p0.desconto = 5;
         System.out.println("");
@@ -37,7 +37,7 @@ public class Objeto {
 
         System.out.println("");
 
-        System.out.println("====== Pessoas ======");
+        System.out.println("====== Pessoas ======"); //Construtor
         System.out.println("Nome:" + pessoa1.nome);
         System.out.println("Ano de nascimento: " + pessoa1.ano_nascimento);
         System.out.println("Sexo: " + pessoa1.sexo);
